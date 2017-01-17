@@ -1,0 +1,9 @@
+{
+	"version": "1.1.0",
+	"name": "serilog-authservice-library",
+	"private": true,
+	"devDependencies": {
+		"gulp": "3.9.0",
+		"gulp-doctoc": "0.1.3"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"version": "1.1.0",
+	"description": "Serilog enricher for IAuthService.",
+	"authors": [ "digipolis.be" ],
+	"packOptions": {
+		"tags": [ "Toolbox", "Serilog", "AuthService", "Digipolis" ],
+		"repository": {
+			"type": "git",
+			"url": "https://github.com/digipolisantwerp/serilog-authservice_aspnetcore.git"
+		},
+		"projectUrl": "https://github.com/digipolisantwerp/serilog-authservice_aspnetcore",
+		"licenseUrl": "https://github.com/digipolisantwerp/serilog-authservice_aspnetcore/LICENSE.txt"
+	},
+	"dependencies": {
+		"NETStandard.Library": "1.6.0",
+		"Digipolis.Serilog": "1.1.0",
+		"Digipolis.Auth": "1.1.0"
+	},
+	"frameworks": {
+        "netstandard1.6": {
+            "imports": "dnxcore50"
+        }
+    }
+}
+
