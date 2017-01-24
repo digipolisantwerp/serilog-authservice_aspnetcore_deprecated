@@ -1,5 +1,5 @@
 {
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Serilog enricher for IAuthService.",
 	"authors": [ "digipolis.be" ],
 	"packOptions": {
@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"NETStandard.Library": "1.6.0",
-		"Digipolis.Serilog": "1.2.0",
+		"Digipolis.Serilog": "1.2.1",
 		"Digipolis.Auth": "1.1.0"
 	},
 	"frameworks": {

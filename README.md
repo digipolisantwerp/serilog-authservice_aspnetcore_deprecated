@@ -27,7 +27,7 @@ To add it to a project, you add the package to the project.json :
 
 ``` json 
 "dependencies": {
-    "Digipolis.Serilog.AuthService":  "1.2.0",
+    "Digipolis.Serilog.AuthService":  "1.2.1",
  }
 ``` 
 

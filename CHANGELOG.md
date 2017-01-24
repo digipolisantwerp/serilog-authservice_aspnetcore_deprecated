@@ -1,5 +1,9 @@
 # Serilog AuthService enricher
 
+## 1.2.1
+
+- consolidation of namespaces.
+
 ## 1.2.0
 
 - aligned with v1.2.0 of Digipolis.Serilog.
