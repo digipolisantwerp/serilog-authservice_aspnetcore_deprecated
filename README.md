@@ -27,7 +27,7 @@ To add it to a project, you add the package to the project.json :
 
 ``` json 
 "dependencies": {
-    "Digipolis.Serilog.AuthService":  "1.2.1",
+    "Digipolis.Serilog.AuthService":  "2.0.0",
  }
 ``` 
 
@@ -42,7 +42,6 @@ by calling the **AddAuthServiceEnricher()** method in the Configure method of th
 
 ```csharp
 services.AddSerilogExtensions(options => {
-    options.MessageVersion = "1";
     options.AddAuthServiceEnricher();
 });
 ```  

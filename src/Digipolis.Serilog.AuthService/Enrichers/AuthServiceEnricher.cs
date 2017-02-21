@@ -23,8 +23,10 @@ namespace Digipolis.Serilog.Enrichers
             var authService = httpContext?.RequestServices?.GetService<IAuthService>();
             if ( authService == null ) return;
 
-            logEvent.AddOrUpdateProperty(propertyFactory.CreateProperty(AuthServiceLoggingProperties.MessageUser, authService.User.Identity?.Name ?? AuthServiceLoggingProperties.NullValue));
-            logEvent.AddOrUpdateProperty(propertyFactory.CreateProperty(AuthServiceLoggingProperties.MessageUserIsAuthenticated, authService.User.Identity?.IsAuthenticated ?? false));
+            var userProp = new LogEventProperty(AuthServiceLoggingProperties.MessageUser, new ScalarValue(authService.User.Identity?.Name ?? AuthServiceLoggingProperties.NullValue));
+            var isAuthenticatedProp = new LogEventProperty(AuthServiceLoggingProperties.MessageUserIsAuthenticated, new ScalarValue(authService.User.Identity?.IsAuthenticated ?? false));
+            logEvent.AddOrUpdateProperty(userProp);
+            logEvent.AddOrUpdateProperty(isAuthenticatedProp);
         }
     }
 }

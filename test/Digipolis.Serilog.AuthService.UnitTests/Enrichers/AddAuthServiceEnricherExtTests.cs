@@ -11,28 +11,10 @@ namespace Digipolis.Serilog.AuthService.UnitTests.Enrichers
     public class AddAuthServiceEnricherExtTests
     {
         [Fact]
-        void AuthServiceEnricherIsAdded()
-        {
-            var options = new SerilogExtensionsOptions();
-            options.AddAuthServiceEnricher();
-            Assert.Collection(options.EnricherTypes, item => Assert.Equal(typeof(AuthServiceEnricher), item));
-        }
-
-        [Fact]
-        void AuthServiceEnricherIsAddedOnlyOnce()
-        {
-            var options = new SerilogExtensionsOptions();
-            options.AddAuthServiceEnricher();
-            options.AddAuthServiceEnricher();
-            Assert.Collection(options.EnricherTypes, item => Assert.Equal(typeof(AuthServiceEnricher), item));
-        }
-
-        [Fact]
         void AuthServiceEnricherIsRegisteredAsSingleton()
         {
             var services = new ServiceCollection();
             services.AddSerilogExtensions(options => {
-                options.MessageVersion = "1";
                 options.AddAuthServiceEnricher();
             });
 
@@ -49,7 +31,6 @@ namespace Digipolis.Serilog.AuthService.UnitTests.Enrichers
         {
             var services = new ServiceCollection();
             services.AddSerilogExtensions(options => {
-                options.MessageVersion = "1";
                 options.AddAuthServiceEnricher();
             });
 

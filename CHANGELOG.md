@@ -1,5 +1,10 @@
 # Serilog AuthService enricher
 
+## 2.0.0
+
+- update Digipolis.Serilog package + alignment with new options system.
+- more unit tests.
+
 ## 1.2.1
 
 - consolidation of namespaces.
