@@ -1,12 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB99116B-66D9-1AC4-34B6-1F2F587F934C}"
 	ProjectSection(SolutionItems) = preProject
 		CHANGELOG.md = CHANGELOG.md
-		global.json = global.json
 		nuget.config = nuget.config
 		README.md = README.md
 	EndProjectSection
@@ -18,9 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E8FAD8E-579
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8D8F16A0-946F-DA22-831E-18B3BDBEE748}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Digipolis.Serilog.AuthService", "src\Digipolis.Serilog.AuthService\Digipolis.Serilog.AuthService.xproj", "{042BFE42-4D4F-E35C-10CC-67124741BF75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digipolis.Serilog.AuthService", "src\Digipolis.Serilog.AuthService\Digipolis.Serilog.AuthService.csproj", "{042BFE42-4D4F-E35C-10CC-67124741BF75}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Digipolis.Serilog.AuthService.UnitTests", "test\Digipolis.Serilog.AuthService.UnitTests\Digipolis.Serilog.AuthService.UnitTests.xproj", "{18918A97-2F05-F4B1-4346-D603C2357967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digipolis.Serilog.AuthService.UnitTests", "test\Digipolis.Serilog.AuthService.UnitTests\Digipolis.Serilog.AuthService.UnitTests.csproj", "{18918A97-2F05-F4B1-4346-D603C2357967}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

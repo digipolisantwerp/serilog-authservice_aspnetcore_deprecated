@@ -1,5 +1,9 @@
 # Serilog AuthService enricher
 
+## 3.0.0
+
+- conversion to csproj en MSBuild.
+
 ## 2.0.0
 
 - update Digipolis.Serilog package + alignment with new options system.
