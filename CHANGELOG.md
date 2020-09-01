@@ -1,5 +1,9 @@
 # Serilog AuthService enricher
 
+## 5.0.0
+
+- Upgrade to .NET Standard 2.1
+
 ## 4.0.0
 
 - Upgrade to .NET Standard 2.0

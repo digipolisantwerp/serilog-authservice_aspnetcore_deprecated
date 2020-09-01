@@ -27,7 +27,7 @@ To add it to a project, you add the package to the csproj project file:
 
 ```xml
   <ItemGroup>
-    <PackageReference Include="Digipolis.Serilog.AuthService" Version="4.0.0" />
+    <PackageReference Include="Digipolis.Serilog.AuthService" Version="5.0.0" />
   </ItemGroup>
 ``` 
 
