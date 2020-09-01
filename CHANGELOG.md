@@ -1,5 +1,9 @@
 # Serilog AuthService enricher
 
+## 4.0.0
+
+- Upgrade to .NET Standard 2.0
+
 ## 3.0.0
 
 - conversion to csproj en MSBuild.
