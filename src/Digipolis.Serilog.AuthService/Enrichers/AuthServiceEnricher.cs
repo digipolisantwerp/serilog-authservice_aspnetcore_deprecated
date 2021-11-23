@@ -1,5 +1,4 @@
-﻿using System;
-using Digipolis.Auth.Services;
+﻿using Digipolis.Auth.Services;
 using Digipolis.Serilog.AuthService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
