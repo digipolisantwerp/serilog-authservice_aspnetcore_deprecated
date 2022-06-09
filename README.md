@@ -1,5 +1,7 @@
 # Serilog AuthService Library
 
+DEPRECATED - moved to internal Bitbucket
+
 Serilog enricher for Digipolis AuthService.
 
 ## Table of Contents
